@@ -10,29 +10,29 @@ import SwiftUI
 import CoreLocation
 
 struct Pokemon: Hashable, Codable, Identifiable {
-    var id: Int
-    var number: Int?
+    var id: String
+    var number: Int
     var name: String
     var spritePC: String
     var sprites: [String]?
     var types: [String]
-    init(id: Int, number: Int, name: String, spritePC: String, pkType: [PokemonType]){
+    init(id: String, number: Int, name: String, spritePC: String, types: [String]){
         self.id = id
         self.number = number
         self.name = name
         self.spritePC = spritePC
-        self.types = pkType.map({ $0.name })
+        self.types = types
         self.sprites = [
             "-detail",
             "-shiny"
         ]
     }
-    init(id: Int, number: Int, name: String, spritePC: String, sprites: [String], pkType: [PokemonType]){
+    init(id: String, number: Int, name: String, spritePC: String, sprites: [String], types: [String]){
         self.id = id
         self.number = number
         self.name = name
         self.spritePC = spritePC
-         self.types = pkType.map({ $0.name })
+        self.types = types
         self.sprites = sprites
         self.sprites?.insert(contentsOf: ["-detail", "-shiny"], at: 0)
     }
@@ -45,14 +45,5 @@ extension String {
 
     mutating func capitalize() {
       self = self.capitalize()
-    }
-}
-
-struct PokemonType: Hashable, Codable, Identifiable {
-    var id: String
-    var name: String
-    init(id: String){
-        self.id = id.lowercased()
-        self.name = id.capitalize()
     }
 }
