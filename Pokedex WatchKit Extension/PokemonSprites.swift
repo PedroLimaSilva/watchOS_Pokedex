@@ -17,7 +17,7 @@ struct PokemonSprites: View {
                     .resizable()
                     .frame(width: 140.0, height: 140.0)
             }
-            if pokemon.sprites.firstIndex(of: "-f") != nil {
+            if pokemon.sprites?.firstIndex(of: "-f") != nil {
                 VStack(alignment: .center) {
                     Image(pokemon.spritePC + "-f-detail")
                        .resizable()
@@ -25,14 +25,14 @@ struct PokemonSprites: View {
                 }
             }
 
-            if pokemon.sprites.firstIndex(of: "-shiny") != nil {
+            if pokemon.sprites?.firstIndex(of: "-shiny") != nil {
                 Section(header: Text("Shiny Forms")){
                     VStack(alignment: .center) {
                         Image(pokemon.spritePC + "-shiny")
                             .resizable()
                             .frame(width: 140.0, height: 140.0)
                     }
-                    if pokemon.sprites.firstIndex(of: "-f") != nil {
+                    if pokemon.sprites?.firstIndex(of: "-f") != nil {
                         VStack(alignment: .center) {
                             Image(pokemon.spritePC + "-f-shiny")
                                 .resizable()

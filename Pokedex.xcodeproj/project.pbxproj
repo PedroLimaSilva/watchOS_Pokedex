@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23BC8FA6231418C300ACB6E8 /* pokemonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 23BC8FA5231418C300ACB6E8 /* pokemonData.json */; };
+		23BC8FA72314193C00ACB6E8 /* pokemonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 23BC8FA5231418C300ACB6E8 /* pokemonData.json */; };
 		290FC2392312139600CBBCB9 /* PokemonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FC2382312139600CBBCB9 /* PokemonRow.swift */; };
 		290FC23B2312162300CBBCB9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FC23A2312162300CBBCB9 /* Data.swift */; };
 		290FC23D2312A70E00CBBCB9 /* PokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FC23C2312A70E00CBBCB9 /* PokemonList.swift */; };
@@ -69,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23BC8FA5231418C300ACB6E8 /* pokemonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemonData.json; path = "Pokedex WatchKit Extension/pokemonData.json"; sourceTree = SOURCE_ROOT; };
 		290FC2382312139600CBBCB9 /* PokemonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRow.swift; sourceTree = "<group>"; };
 		290FC23A2312162300CBBCB9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		290FC23C2312A70E00CBBCB9 /* PokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonList.swift; sourceTree = "<group>"; };
@@ -153,6 +156,7 @@
 		29E7C5FA2311CFDD000C409F /* Pokedex WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				23BC8FA5231418C300ACB6E8 /* pokemonData.json */,
 				29E7C5FD2311CFDD000C409F /* HostingController.swift */,
 				29E7C5FF2311CFDD000C409F /* ExtensionDelegate.swift */,
 				29E7C6012311CFDE000C409F /* Assets.xcassets */,
@@ -283,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BC8FA6231418C300ACB6E8 /* pokemonData.json in Resources */,
 				29E7C5F02311CFDD000C409F /* Assets.xcassets in Resources */,
 				29E7C5EE2311CFDA000C409F /* Interface.storyboard in Resources */,
 			);
@@ -292,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BC8FA72314193C00ACB6E8 /* pokemonData.json in Resources */,
 				29E7C6052311CFDE000C409F /* Preview Assets.xcassets in Resources */,
 				29E7C6022311CFDE000C409F /* Assets.xcassets in Resources */,
 			);

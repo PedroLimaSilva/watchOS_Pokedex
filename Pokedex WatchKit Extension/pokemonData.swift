@@ -6,6 +6,7 @@
 //  Copyright © 2019 Pedro Lima e Silva. All rights reserved.
 //
 
+/*
 let pokemonData: [Pokemon] = [
     Pokemon(id:"001" , number: 1, name:"Bulbasaur", spritePC: "bulbasaur", pkType:[PokemonType(id:"grass"), PokemonType(id:"poison")]),
     Pokemon(id:"002" , number: 2, name:"Ivysaur", spritePC: "ivysaur", pkType:[PokemonType(id:"grass"), PokemonType(id:"poison")]),
@@ -177,3 +178,4 @@ let pokemonData: [Pokemon] = [
     Pokemon(id:"150" , number: 150, name:"Mewtwo", spritePC: "mewtwo", pkType:[PokemonType(id:"psychic")]),
     Pokemon(id:"151" , number: 151, name:"Mew", spritePC: "mew", pkType:[PokemonType(id:"psychic")]),
 ]
+*/

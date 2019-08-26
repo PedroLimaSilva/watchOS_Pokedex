@@ -10,31 +10,31 @@ import SwiftUI
 import CoreLocation
 
 struct Pokemon: Hashable, Codable, Identifiable {
-    var id: String
-    var number: Int
+    var id: Int
+    var number: Int?
     var name: String
     var spritePC: String
-    var sprites: [String]
-    var pkType: [PokemonType]
-    init(id: String, number: Int, name: String, spritePC: String, pkType: [PokemonType]){
+    var sprites: [String]?
+    var types: [String]
+    init(id: Int, number: Int, name: String, spritePC: String, pkType: [PokemonType]){
         self.id = id
         self.number = number
         self.name = name
         self.spritePC = spritePC
-        self.pkType = pkType
+        self.types = pkType.map({ $0.name })
         self.sprites = [
             "-detail",
             "-shiny"
         ]
     }
-    init(id: String, number: Int, name: String, spritePC: String, sprites: [String], pkType: [PokemonType]){
+    init(id: Int, number: Int, name: String, spritePC: String, sprites: [String], pkType: [PokemonType]){
         self.id = id
         self.number = number
         self.name = name
         self.spritePC = spritePC
-        self.pkType = pkType
+         self.types = pkType.map({ $0.name })
         self.sprites = sprites
-        self.sprites.insert(contentsOf: ["-detail", "-shiny"], at: 0)
+        self.sprites?.insert(contentsOf: ["-detail", "-shiny"], at: 0)
     }
 }
 
