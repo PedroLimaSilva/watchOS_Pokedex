@@ -21,13 +21,13 @@ struct PokemonDetail: View {
                 }
             }
             Section(header: Text("Types")) {
-                ForEach(pokemon.pkType) { pkType in
-                    NavigationLink(destination: TypeDetail(pkType: pkType)) {
+                ForEach(pokemon.types, id: \.self) { type in
+                    NavigationLink(destination: TypeDetail(pkType: type)) {
                         HStack{
-                            Image(pkType.id)
+                            Image(type)
                                 .resizable()
                                 .frame(width: 25, height: 25)
-                            Text(pkType.name)
+                            Text(type)
                         }
                     }
                 }

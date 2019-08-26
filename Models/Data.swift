@@ -10,12 +10,12 @@ import SwiftUI
 import CoreLocation
 
 
-//let pokemonData = load("pokemonData.json")
+let pokemonData: [Pokemon] = load("pokemonData")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
     
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    guard let file = Bundle.main.url(forResource: filename, withExtension: "json")
         else {
             fatalError("Couldn't find \(filename) in main bundle.")
     }

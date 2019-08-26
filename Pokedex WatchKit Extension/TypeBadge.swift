@@ -9,18 +9,18 @@
 import SwiftUI
 
 struct TypeBadge: View {
-    var pkType: PokemonType
+    var pkType: String
     
     var body: some View {
         VStack {
-            Image(pkType.id)
-            Text(pkType.name)
+            Image(pkType)
+            Text(pkType)
         }
     }
 }
 
 struct TypeBadge_Previews: PreviewProvider {
     static var previews: some View {
-        TypeBadge(pkType: PokemonType(id: "normal"))
+        TypeBadge(pkType: "normal")
     }
 }

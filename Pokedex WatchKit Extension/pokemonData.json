@@ -1,0 +1,25 @@
+[
+  {
+    "id": "25",
+    "number": 25,
+    "name": "Pikachu",
+    "spritePC": "pikachu",
+    "sprites": ["-f"],
+    "types": ["Electric"]
+  },
+  {
+    "id": "026",
+    "number": 26,
+    "name": "Raichu",
+    "spritePC": "raichu",
+    "sprites": ["-f"],
+    "types": ["Electric"]
+  },
+  {
+    "id": "026a",
+    "number": 26,
+    "name": "Raichu",
+    "spritePC": "raichu-a",
+    "types": ["Electric", "Psychic"]
+  }
+]

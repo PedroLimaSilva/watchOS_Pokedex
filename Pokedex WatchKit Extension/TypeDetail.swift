@@ -9,18 +9,18 @@
 import SwiftUI
 
 struct TypeDetail: View {
-    var pkType: PokemonType
+    var pkType: String
     var body: some View {
         VStack {
-            Image(pkType.id)
-            Text(pkType.name)
+            Image(pkType)
+            Text(pkType)
         }
-        .navigationBarTitle(pkType.name)
+        .navigationBarTitle(pkType)
     }
 }
 
 struct TypeDetail_Previews: PreviewProvider {
     static var previews: some View {
-        TypeDetail(pkType: PokemonType(id: "normal"))
+        TypeDetail(pkType: "normal")
     }
 }
