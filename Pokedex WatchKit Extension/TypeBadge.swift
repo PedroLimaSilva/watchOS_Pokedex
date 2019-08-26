@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct TypeBadge: View {
+    var pkType: PokemonType
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(pkType.id)
+            Text(pkType.name)
+        }
     }
 }
 
 struct TypeBadge_Previews: PreviewProvider {
     static var previews: some View {
-        TypeBadge()
+        TypeBadge(pkType: PokemonType(id: "normal"))
     }
 }

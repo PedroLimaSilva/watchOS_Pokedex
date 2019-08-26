@@ -1,0 +1,14 @@
+[
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "spritePC": "pikachu",
+    "types": ["Electric"]
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "spritePC": "raichu",
+    "types": ["Electric"],
+  },
+]

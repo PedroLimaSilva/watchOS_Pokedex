@@ -1,9 +1,36 @@
-//
-//  Data.swift
-//  Pokedex WatchKit Extension
-//
-//  Created by Pedro Lima e Silva on 25/08/2019.
-//  Copyright © 2019 Pedro Lima e Silva. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
 
-import Foundation
+Abstract:
+Helpers for loading images and data.
+*/
+
+import UIKit
+import SwiftUI
+import CoreLocation
+
+
+//let pokemonData = load("pokemonData.json")
+
+func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
+    let data: Data
+    
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+        else {
+            fatalError("Couldn't find \(filename) in main bundle.")
+    }
+    
+    do {
+        data = try Data(contentsOf: file)
+    } catch {
+        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+    }
+    
+    do {
+        let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+    }
+}
+

@@ -10,7 +10,14 @@ import SwiftUI
 
 struct PokemonList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(pokemonData){ pokemon in
+                NavigationLink(destination: PokemonDetail(pokemon: pokemon)){
+                     PokemonRow(pokemon: pokemon)
+                }
+            }
+        }
+        .navigationBarTitle(Text("All Pokemon"))
     }
 }
 

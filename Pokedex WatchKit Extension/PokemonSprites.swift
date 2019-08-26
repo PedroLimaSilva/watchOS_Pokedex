@@ -9,13 +9,46 @@
 import SwiftUI
 
 struct PokemonSprites: View {
+    var pokemon: Pokemon
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        List{
+            VStack(alignment: .center) {
+                Image(pokemon.spritePC + "-detail")
+                    .resizable()
+                    .frame(width: 140.0, height: 140.0)
+            }
+            if pokemon.sprites.firstIndex(of: "-f") != nil {
+                VStack(alignment: .center) {
+                    Image(pokemon.spritePC + "-f-detail")
+                       .resizable()
+                        .frame(width: 140.0, height: 140.0)
+                }
+            }
+
+            if pokemon.sprites.firstIndex(of: "-shiny") != nil {
+                Section(header: Text("Shiny Forms")){
+                    VStack(alignment: .center) {
+                        Image(pokemon.spritePC + "-shiny")
+                            .resizable()
+                            .frame(width: 140.0, height: 140.0)
+                    }
+                    if pokemon.sprites.firstIndex(of: "-f") != nil {
+                        VStack(alignment: .center) {
+                            Image(pokemon.spritePC + "-f-shiny")
+                                .resizable()
+                                .frame(width: 140.0, height: 140.0)
+                        }
+                    }
+                }
+            }
+           
+        }
+        .navigationBarTitle(pokemon.name)
     }
 }
 
 struct PokemonSprites_Previews: PreviewProvider {
     static var previews: some View {
-        PokemonSprites()
+        PokemonSprites(pokemon: pokemonData[28])
     }
 }

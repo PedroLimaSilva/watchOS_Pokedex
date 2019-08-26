@@ -9,13 +9,22 @@
 import SwiftUI
 
 struct PokemonRow: View {
+    var pokemon: Pokemon
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(pokemon.spritePC)
+                .frame(width: 30, height: 30)
+            Text(pokemon.name)
+        }
     }
 }
 
 struct PokemonRow_Previews: PreviewProvider {
     static var previews: some View {
-        PokemonRow()
+        Group {
+            PokemonRow(pokemon: pokemonData[0])
+            PokemonRow(pokemon: pokemonData[1])
+        }
     }
 }
