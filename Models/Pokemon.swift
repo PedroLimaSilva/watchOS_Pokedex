@@ -14,7 +14,8 @@ struct Pokemon: Hashable, Codable, Identifiable {
     var number: Int
     var name: String
     var spritePC: String
-    var sprites: [String]?
+    var sprites: [String]
+    var shinies: [String]?
     var types: [String]
     init(id: String, number: Int, name: String, spritePC: String, types: [String]){
         self.id = id
@@ -22,10 +23,7 @@ struct Pokemon: Hashable, Codable, Identifiable {
         self.name = name
         self.spritePC = spritePC
         self.types = types
-        self.sprites = [
-            "-detail",
-            "-shiny"
-        ]
+        self.sprites = []
     }
     init(id: String, number: Int, name: String, spritePC: String, sprites: [String], types: [String]){
         self.id = id
@@ -34,7 +32,15 @@ struct Pokemon: Hashable, Codable, Identifiable {
         self.spritePC = spritePC
         self.types = types
         self.sprites = sprites
-        self.sprites?.insert(contentsOf: ["-detail", "-shiny"], at: 0)
+    }
+    init(id: String, number: Int, name: String, spritePC: String, sprites: [String], shinies: [String], types: [String]){
+        self.id = id
+        self.number = number
+        self.name = name
+        self.spritePC = spritePC
+        self.types = types
+        self.sprites = sprites
+        self.shinies = shinies
     }
 }
 
