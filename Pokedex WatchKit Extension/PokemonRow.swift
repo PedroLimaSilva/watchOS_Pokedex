@@ -15,7 +15,12 @@ struct PokemonRow: View {
         HStack {
             Image(pokemon.spritePC)
                 .frame(width: 30, height: 30)
-            Text(pokemon.name)
+            VStack(alignment: .leading) {
+                Text(pokemon.printableNumber)
+                    .font(.footnote)
+                    .foregroundColor(Color.gray)
+                Text(pokemon.name)
+            }
         }
     }
 }

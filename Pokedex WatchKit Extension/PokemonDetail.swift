@@ -33,7 +33,7 @@ struct PokemonDetail: View {
                 }
             }
         }
-        .navigationBarTitle(pokemon.name)
+        .navigationBarTitle("\(pokemon.printableNumber) \(pokemon.name)")
     }
 }
 

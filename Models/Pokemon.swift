@@ -42,6 +42,16 @@ struct Pokemon: Hashable, Codable, Identifiable {
         self.sprites = sprites
         self.shinies = shinies
     }
+    
+    var printableNumber: String {
+        if self.number < 10 {
+            return "#00\(self.number)"
+        } else if self.number < 100 {
+            return "#0\(self.number)"
+        } else {
+            return "#\(self.number)"
+        }
+    }
 }
 
 extension String {
