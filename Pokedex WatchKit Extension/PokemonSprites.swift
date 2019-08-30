@@ -25,17 +25,11 @@ struct PokemonSprites: View {
     var body: some View {
         List {
             ForEach(sprites, id:\.self){ sprite in
-                VStack(spacing: -6.0){
-                    Text(sprite)
-                    PokemonSprite(sprite: sprite)
-                }
+                PokemonSprite(sprite: sprite)
             }
             Section(header: Text("Shiny Forms")){
                 ForEach(shinies, id:\.self){ sprite in
-                    VStack{
-                        Text(sprite)
-                        PokemonSprite(sprite: sprite)
-                    }
+                    PokemonSprite(sprite: sprite)
                 }
             }
         }
