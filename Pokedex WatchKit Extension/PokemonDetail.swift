@@ -17,19 +17,20 @@ struct PokemonDetail: View {
                 NavigationLink(destination: PokemonSprites(pokemon: pokemon)) {
                     Image(pokemon.spritePC + "-detail")
                         .resizable()
-                        .frame(width: 140, height: 140)
+                        .frame(width: 140.0, height: 140.0)
                 }
             }
             Section(header: Text("Types")) {
-                ForEach(pokemon.types, id: \.self) { type in
+                ForEach(pokemon.types) { type in
                     NavigationLink(destination: TypeDetail(pkType: type)) {
                         HStack{
-                            Image(type)
+                            Image(type.name)
                                 .resizable()
                                 .frame(width: 25, height: 25)
-                            Text(type)
+                            Text(type.name)
                         }
                     }
+                    .listRowPlatterColor(Color(type.color))
                 }
             }
         }

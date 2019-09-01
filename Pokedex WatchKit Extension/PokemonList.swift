@@ -30,10 +30,13 @@ struct PokemonList: View {
                 }
             }
             
-            ForEach(pokemonData.filter{ self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm) }){ pokemon in
+            ForEach(pokemonData.filter{
+                self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm)
+            }){ pokemon in
                 NavigationLink(destination: PokemonDetail(pokemon: pokemon)) {
                     PokemonRow(pokemon: pokemon)
                 }
+                .listRowPlatterColor(Color(pokemon.types[0].color))
             }
         }
         .navigationBarTitle(Text(self.searchTerm.isEmpty ? "All Pokemon" : "\"\(self.searchTerm)\""))

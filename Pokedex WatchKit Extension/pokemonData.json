@@ -6,7 +6,7 @@
     "spritePC": "bulbasaur",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "002",
@@ -15,7 +15,7 @@
     "spritePC": "ivysaur",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "003",
@@ -24,7 +24,7 @@
     "spritePC": "venusaur",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "004",
@@ -33,7 +33,7 @@
     "spritePC": "charmander",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "005",
@@ -42,7 +42,7 @@
     "spritePC": "charmeleon",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "006",
@@ -51,7 +51,7 @@
     "spritePC": "charizard",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "007",
@@ -59,7 +59,7 @@
     "name": "Squirtle",
     "spritePC": "squirtle",
     "sprites": ["-glasses", "-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "008",
@@ -67,7 +67,7 @@
     "name": "Wartortle",
     "spritePC": "wartortle",
     "sprites": ["-glasses", "-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "009",
@@ -75,7 +75,7 @@
     "name": "Blastoise",
     "spritePC": "blastoise",
     "sprites": ["-glasses", "-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "010",
@@ -84,7 +84,7 @@
     "spritePC": "caterpie",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug"]
+    "types": [{ "id": "Bug" }]
   },
   {
     "id": "011",
@@ -93,7 +93,7 @@
     "spritePC": "metapod",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug"]
+    "types": [{ "id": "Bug" }]
   },
   {
     "id": "012",
@@ -101,8 +101,8 @@
     "name": "Butterfree",
     "spritePC": "butterfree",
     "sprites": ["-f"],
-    "shinies":["-shiny", "-f-shiny"],
-    "types": ["Bug", "Flying"]
+    "shinies": ["-shiny", "-f-shiny"],
+    "types": [{ "id": "Bug" }, { "id": "Flying" }]
   },
   {
     "id": "013",
@@ -111,7 +111,7 @@
     "spritePC": "weedle",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Poison"]
+    "types": [{ "id": "Bug" }, { "id": "Poison" }]
   },
   {
     "id": "014",
@@ -120,7 +120,7 @@
     "spritePC": "kakuna",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Poison"]
+    "types": [{ "id": "Bug" }, { "id": "Poison" }]
   },
   {
     "id": "015",
@@ -129,7 +129,7 @@
     "spritePC": "beedrill",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Poison"]
+    "types": [{ "id": "Bug" }, { "id": "Poison" }]
   },
   {
     "id": "016",
@@ -138,7 +138,7 @@
     "spritePC": "pidgey",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "017",
@@ -147,7 +147,7 @@
     "spritePC": "pidgeotto",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "018",
@@ -156,7 +156,7 @@
     "spritePC": "pidgeot",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "019",
@@ -165,7 +165,7 @@
     "spritePC": "rattata",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "019a",
@@ -174,7 +174,7 @@
     "spritePC": "rattata-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Dark", "Normal"]
+    "types": [{ "id": "Dark" }, { "id": "Normal" }]
   },
   {
     "id": "020",
@@ -183,7 +183,7 @@
     "spritePC": "raticate",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "020a",
@@ -192,7 +192,7 @@
     "spritePC": "raticate-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Dark", "Normal"]
+    "types": [{ "id": "Dark" }, { "id": "Normal" }]
   },
   {
     "id": "021",
@@ -201,7 +201,7 @@
     "spritePC": "spearow",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "022",
@@ -210,7 +210,7 @@
     "spritePC": "fearow",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "023",
@@ -219,7 +219,7 @@
     "spritePC": "ekans",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "024",
@@ -228,7 +228,7 @@
     "spritePC": "arbok",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "25",
@@ -274,7 +274,7 @@
       "-witch-shiny",
       "-witch-f-shiny"
     ],
-    "types": ["Electric"]
+    "types": [{ "id": "Electric" }]
   },
   {
     "id": "026",
@@ -320,7 +320,7 @@
       "-witch-shiny",
       "-witch-f-shiny"
     ],
-    "types": ["Electric"]
+    "types": [{ "id": "Electric" }]
   },
   {
     "id": "026a",
@@ -329,7 +329,7 @@
     "spritePC": "raichu-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Electric", "Psychic"]
+    "types": [{ "id": "Electric" }, { "id": "Psychic" }]
   },
   {
     "id": "027",
@@ -338,7 +338,7 @@
     "spritePC": "sandshrew",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground"]
+    "types": [{ "id": "Ground" }]
   },
   {
     "id": "027a",
@@ -347,7 +347,7 @@
     "spritePC": "sandshrew-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ice", "Steel"]
+    "types": [{ "id": "Ice" }, { "id": "Steel" }]
   },
   {
     "id": "028",
@@ -356,7 +356,7 @@
     "spritePC": "sandslash",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground"]
+    "types": [{ "id": "Ground" }]
   },
   {
     "id": "028a",
@@ -365,7 +365,7 @@
     "spritePC": "sandslash-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ice", "Steel"]
+    "types": [{ "id": "Ice" }, { "id": "Steel" }]
   },
   {
     "id": "029",
@@ -374,7 +374,7 @@
     "spritePC": "nidoran-f",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "030",
@@ -383,7 +383,7 @@
     "spritePC": "nidorina",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "031",
@@ -392,7 +392,7 @@
     "spritePC": "nidoqueen",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison", "Ground"]
+    "types": [{ "id": "Poison" }, { "id": "Ground" }]
   },
   {
     "id": "032",
@@ -401,7 +401,7 @@
     "spritePC": "nidoran-m",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "033",
@@ -410,7 +410,7 @@
     "spritePC": "nidorino",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "034",
@@ -419,7 +419,7 @@
     "spritePC": "nidoking",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison", "Ground"]
+    "types": [{ "id": "Poison" }, { "id": "Ground" }]
   },
   {
     "id": "035",
@@ -428,7 +428,7 @@
     "spritePC": "clefairy",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fairy"]
+    "types": [{ "id": "Fairy" }]
   },
   {
     "id": "036",
@@ -437,7 +437,7 @@
     "spritePC": "clefable",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fairy"]
+    "types": [{ "id": "Fairy" }]
   },
   {
     "id": "037",
@@ -446,7 +446,7 @@
     "spritePC": "vulpix",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "037a",
@@ -455,7 +455,7 @@
     "spritePC": "vulpix-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ice"]
+    "types": [{ "id": "Ice" }]
   },
   {
     "id": "038",
@@ -464,7 +464,7 @@
     "spritePC": "ninetales",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "038a",
@@ -473,7 +473,7 @@
     "spritePC": "ninetales-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ice", "Fairy"]
+    "types": [{ "id": "Ice" }, { "id": "Fairy" }]
   },
   {
     "id": "039",
@@ -482,7 +482,7 @@
     "spritePC": "jigglypuff",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Fairy"]
+    "types": [{ "id": "Normal" }, { "id": "Fairy" }]
   },
   {
     "id": "040",
@@ -491,7 +491,7 @@
     "spritePC": "wigglytuff",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Fairy"]
+    "types": [{ "id": "Normal" }, { "id": "Fairy" }]
   },
   {
     "id": "041",
@@ -500,7 +500,7 @@
     "spritePC": "zubat",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Poison", "Flying"]
+    "types": [{ "id": "Poison" }, { "id": "Flying" }]
   },
   {
     "id": "042",
@@ -509,7 +509,7 @@
     "spritePC": "golbat",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Poison", "Flying"]
+    "types": [{ "id": "Poison" }, { "id": "Flying" }]
   },
   {
     "id": "043",
@@ -518,7 +518,7 @@
     "spritePC": "oddish",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "044",
@@ -527,7 +527,7 @@
     "spritePC": "gloom",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "045",
@@ -536,7 +536,7 @@
     "spritePC": "vileplume",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "046",
@@ -545,7 +545,7 @@
     "spritePC": "paras",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Grass"]
+    "types": [{ "id": "Bug" }, { "id": "Grass" }]
   },
   {
     "id": "047",
@@ -554,7 +554,7 @@
     "spritePC": "parasect",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Grass"]
+    "types": [{ "id": "Bug" }, { "id": "Grass" }]
   },
   {
     "id": "048",
@@ -563,7 +563,7 @@
     "spritePC": "venonat",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Poison"]
+    "types": [{ "id": "Bug" }, { "id": "Poison" }]
   },
   {
     "id": "049",
@@ -572,7 +572,7 @@
     "spritePC": "venomoth",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug", "Poison"]
+    "types": [{ "id": "Bug" }, { "id": "Poison" }]
   },
   {
     "id": "050",
@@ -581,7 +581,7 @@
     "spritePC": "diglett",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground"]
+    "types": [{ "id": "Ground" }]
   },
   {
     "id": "050a",
@@ -590,7 +590,7 @@
     "spritePC": "diglett-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground", "Steel"]
+    "types": [{ "id": "Ground" }, { "id": "Steel" }]
   },
   {
     "id": "051",
@@ -599,7 +599,7 @@
     "spritePC": "dugtrio",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground"]
+    "types": [{ "id": "Ground" }]
   },
   {
     "id": "051a",
@@ -608,7 +608,7 @@
     "spritePC": "dugtrio-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground", "Steel"]
+    "types": [{ "id": "Ground" }, { "id": "Steel" }]
   },
   {
     "id": "052",
@@ -617,7 +617,7 @@
     "spritePC": "meowth",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "052a",
@@ -626,7 +626,7 @@
     "spritePC": "meowth-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Dark"]
+    "types": [{ "id": "Dark" }]
   },
   {
     "id": "053",
@@ -635,7 +635,7 @@
     "spritePC": "persian",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "053a",
@@ -644,7 +644,7 @@
     "spritePC": "persian-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Dark"]
+    "types": [{ "id": "Dark" }]
   },
   {
     "id": "054",
@@ -653,7 +653,7 @@
     "spritePC": "psyduck",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "055",
@@ -662,7 +662,7 @@
     "spritePC": "golduck",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "056",
@@ -671,7 +671,7 @@
     "spritePC": "mankey",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "057",
@@ -680,7 +680,7 @@
     "spritePC": "primeape",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "058",
@@ -689,7 +689,7 @@
     "spritePC": "growlithe",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "059",
@@ -698,7 +698,7 @@
     "spritePC": "arcanine",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "060",
@@ -707,7 +707,7 @@
     "spritePC": "poliwag",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "061",
@@ -716,7 +716,7 @@
     "spritePC": "poliwhirl",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "062",
@@ -725,7 +725,7 @@
     "spritePC": "poliwrath",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "063",
@@ -734,7 +734,7 @@
     "spritePC": "abra",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   },
   {
     "id": "064",
@@ -743,7 +743,7 @@
     "spritePC": "kadabra",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   },
   {
     "id": "065",
@@ -752,7 +752,7 @@
     "spritePC": "alakazam",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   },
   {
     "id": "066",
@@ -761,7 +761,7 @@
     "spritePC": "machop",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "067",
@@ -770,7 +770,7 @@
     "spritePC": "machoke",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "068",
@@ -779,7 +779,7 @@
     "spritePC": "machamp",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "069",
@@ -788,7 +788,7 @@
     "spritePC": "bellsprout",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "070",
@@ -797,7 +797,7 @@
     "spritePC": "weepinbell",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "071",
@@ -806,7 +806,7 @@
     "spritePC": "victreebel",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Poison"]
+    "types": [{ "id": "Grass" }, { "id": "Poison" }]
   },
   {
     "id": "072",
@@ -815,7 +815,7 @@
     "spritePC": "tentacool",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Poison"]
+    "types": [{ "id": "Water" }, { "id": "Poison" }]
   },
   {
     "id": "073",
@@ -824,7 +824,7 @@
     "spritePC": "tentacruel",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Poison"]
+    "types": [{ "id": "Water" }, { "id": "Poison" }]
   },
   {
     "id": "074",
@@ -833,7 +833,7 @@
     "spritePC": "geodude",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Ground"]
+    "types": [{ "id": "Rock" }, { "id": "Ground" }]
   },
   {
     "id": "074a",
@@ -842,7 +842,7 @@
     "spritePC": "geodude-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Electric"]
+    "types": [{ "id": "Rock" }, { "id": "Electric" }]
   },
   {
     "id": "075",
@@ -851,7 +851,7 @@
     "spritePC": "graveler",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Ground"]
+    "types": [{ "id": "Rock" }, { "id": "Ground" }]
   },
   {
     "id": "075a",
@@ -860,7 +860,7 @@
     "spritePC": "graveler-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Electric"]
+    "types": [{ "id": "Rock" }, { "id": "Electric" }]
   },
   {
     "id": "076",
@@ -869,7 +869,7 @@
     "spritePC": "golem",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Ground"]
+    "types": [{ "id": "Rock" }, { "id": "Ground" }]
   },
   {
     "id": "076a",
@@ -878,7 +878,7 @@
     "spritePC": "golem-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Electric"]
+    "types": [{ "id": "Rock" }, { "id": "Electric" }]
   },
   {
     "id": "077",
@@ -887,7 +887,7 @@
     "spritePC": "ponyta",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "078",
@@ -896,7 +896,7 @@
     "spritePC": "rapidash",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "079",
@@ -905,7 +905,7 @@
     "spritePC": "slowpoke",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Psychic"]
+    "types": [{ "id": "Water" }, { "id": "Psychic" }]
   },
   {
     "id": "080",
@@ -914,7 +914,7 @@
     "spritePC": "slowbro",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Psychic"]
+    "types": [{ "id": "Water" }, { "id": "Psychic" }]
   },
   {
     "id": "081",
@@ -923,7 +923,7 @@
     "spritePC": "magnemite",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire", "Steel"]
+    "types": [{ "id": "Fire" }, { "id": "Steel" }]
   },
   {
     "id": "082",
@@ -932,7 +932,7 @@
     "spritePC": "magneton",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire", "Steel"]
+    "types": [{ "id": "Fire" }, { "id": "Steel" }]
   },
   {
     "id": "083",
@@ -941,7 +941,7 @@
     "spritePC": "farfetchd",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "084",
@@ -950,7 +950,7 @@
     "spritePC": "doduo",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Normal", "Flying"]
+    "types": [{ "id": "Normal" }, { "id": "Flying" }]
   },
   {
     "id": "085",
@@ -959,7 +959,7 @@
     "spritePC": "dodrio",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Fire", "Steel"]
+    "types": [{ "id": "Fire" }, { "id": "Steel" }]
   },
   {
     "id": "086",
@@ -968,7 +968,7 @@
     "spritePC": "seel",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "087",
@@ -977,7 +977,7 @@
     "spritePC": "dewgong",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Ice"]
+    "types": [{ "id": "Water" }, { "id": "Ice" }]
   },
   {
     "id": "088",
@@ -986,7 +986,7 @@
     "spritePC": "grimer",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "088",
@@ -995,7 +995,7 @@
     "spritePC": "grimer-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison", "Dark"]
+    "types": [{ "id": "Poison" }, { "id": "Dark" }]
   },
   {
     "id": "089",
@@ -1004,7 +1004,7 @@
     "spritePC": "muk",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "089",
@@ -1013,7 +1013,7 @@
     "spritePC": "muk-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison", "Dark"]
+    "types": [{ "id": "Poison" }, { "id": "Dark" }]
   },
   {
     "id": "090",
@@ -1022,7 +1022,7 @@
     "spritePC": "shellder",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "091",
@@ -1031,7 +1031,7 @@
     "spritePC": "cloyster",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Ice"]
+    "types": [{ "id": "Water" }, { "id": "Ice" }]
   },
   {
     "id": "092",
@@ -1040,7 +1040,7 @@
     "spritePC": "gastly",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ghost", "Poison"]
+    "types": [{ "id": "Ghost" }, { "id": "Poison" }]
   },
   {
     "id": "093",
@@ -1049,7 +1049,7 @@
     "spritePC": "haunter",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ghost", "Poison"]
+    "types": [{ "id": "Ghost" }, { "id": "Poison" }]
   },
   {
     "id": "094",
@@ -1058,7 +1058,7 @@
     "spritePC": "gengar",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ghost", "Poison"]
+    "types": [{ "id": "Ghost" }, { "id": "Poison" }]
   },
   {
     "id": "095",
@@ -1067,7 +1067,7 @@
     "spritePC": "onix",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Ground"]
+    "types": [{ "id": "Rock" }, { "id": "Ground" }]
   },
   {
     "id": "096",
@@ -1076,7 +1076,7 @@
     "spritePC": "drowzee",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   },
   {
     "id": "097",
@@ -1084,7 +1084,7 @@
     "name": "Hypno",
     "spritePC": "hypno",
     "sprites": ["-shiny", "-f"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   },
   {
     "id": "098",
@@ -1093,7 +1093,7 @@
     "spritePC": "kingler",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "099",
@@ -1102,7 +1102,7 @@
     "spritePC": "kingler",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "100",
@@ -1111,7 +1111,7 @@
     "spritePC": "slowbro",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Electric"]
+    "types": [{ "id": "Electric" }]
   },
   {
     "id": "101",
@@ -1120,7 +1120,7 @@
     "spritePC": "electrode",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Electric"]
+    "types": [{ "id": "Electric" }]
   },
   {
     "id": "102",
@@ -1129,7 +1129,7 @@
     "spritePC": "exeggcute",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Psychic"]
+    "types": [{ "id": "Grass" }, { "id": "Psychic" }]
   },
   {
     "id": "103",
@@ -1138,7 +1138,7 @@
     "spritePC": "exeggutor",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "Psychic"]
+    "types": [{ "id": "Grass" }, { "id": "Psychic" }]
   },
   {
     "id": "103a",
@@ -1147,7 +1147,7 @@
     "spritePC": "exeggutor-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass", "dragon"]
+    "types": [{ "id": "Grass" }, { "id": "Dragon" }]
   },
   {
     "id": "104",
@@ -1156,7 +1156,7 @@
     "spritePC": "slowbro",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground"]
+    "types": [{ "id": "Ground" }]
   },
   {
     "id": "105",
@@ -1165,7 +1165,7 @@
     "spritePC": "marowak",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ground", "Psychic"]
+    "types": [{ "id": "Ground" }, { "id": "Psychic" }]
   },
   {
     "id": "105a",
@@ -1174,7 +1174,7 @@
     "spritePC": "marowak-a",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire", "Ghost"]
+    "types": [{ "id": "Fire" }, { "id": "Ghost" }]
   },
   {
     "id": "106",
@@ -1183,7 +1183,7 @@
     "spritePC": "hitmonlee",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "107",
@@ -1192,7 +1192,7 @@
     "spritePC": "hitmonchan",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fighting"]
+    "types": [{ "id": "Fighting" }]
   },
   {
     "id": "108",
@@ -1201,7 +1201,7 @@
     "spritePC": "lickitung",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "109",
@@ -1210,7 +1210,7 @@
     "spritePC": "koffing",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "110",
@@ -1219,7 +1219,7 @@
     "spritePC": "weezing",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Poison"]
+    "types": [{ "id": "Poison" }]
   },
   {
     "id": "111",
@@ -1228,7 +1228,7 @@
     "spritePC": "rhyhorn",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Ground", "Rock"]
+    "types": [{ "id": "Ground" }, { "id": "Rock" }]
   },
   {
     "id": "112",
@@ -1237,7 +1237,7 @@
     "spritePC": "rhydon",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Ground", "Rock"]
+    "types": [{ "id": "Ground" }, { "id": "Rock" }]
   },
   {
     "id": "113",
@@ -1246,7 +1246,7 @@
     "spritePC": "chansey",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "114",
@@ -1255,7 +1255,7 @@
     "spritePC": "tangela",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Grass"]
+    "types": [{ "id": "Grass" }]
   },
   {
     "id": "115",
@@ -1264,7 +1264,7 @@
     "spritePC": "kangaskhan",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "116",
@@ -1273,7 +1273,7 @@
     "spritePC": "horsea",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "117",
@@ -1282,7 +1282,7 @@
     "spritePC": "seadra",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "118",
@@ -1291,7 +1291,7 @@
     "spritePC": "goldeen",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "119",
@@ -1300,7 +1300,7 @@
     "spritePC": "seaking",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "120",
@@ -1309,7 +1309,7 @@
     "spritePC": "staryu",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "121",
@@ -1318,7 +1318,7 @@
     "spritePC": "starmie",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Psychic"]
+    "types": [{ "id": "Water" }, { "id": "Psychic" }]
   },
   {
     "id": "122",
@@ -1327,7 +1327,7 @@
     "spritePC": "mrmime",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Psychic", "Fairy"]
+    "types": [{ "id": "Psychic" }, { "id": "Fairy" }]
   },
   {
     "id": "123",
@@ -1336,7 +1336,7 @@
     "spritePC": "scyther",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Bug", "Flying"]
+    "types": [{ "id": "Bug" }, { "id": "Flying" }]
   },
   {
     "id": "124",
@@ -1345,7 +1345,7 @@
     "spritePC": "jynx",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ice", "Psychic"]
+    "types": [{ "id": "Ice" }, { "id": "Psychic" }]
   },
   {
     "id": "125",
@@ -1354,7 +1354,7 @@
     "spritePC": "electabuzz",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Electric"]
+    "types": [{ "id": "Electric" }]
   },
   {
     "id": "126",
@@ -1363,7 +1363,7 @@
     "spritePC": "magmar",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "127",
@@ -1372,7 +1372,7 @@
     "spritePC": "pinsir",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Bug"]
+    "types": [{ "id": "Bug" }]
   },
   {
     "id": "128",
@@ -1381,7 +1381,7 @@
     "spritePC": "tauros",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "129",
@@ -1390,7 +1390,7 @@
     "spritePC": "magikarp",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "130",
@@ -1399,7 +1399,7 @@
     "spritePC": "gyarados",
     "sprites": ["-f"],
     "shinies": ["-shiny", "-f-shiny"],
-    "types": ["Water", "Flying"]
+    "types": [{ "id": "Water" }, { "id": "Flying" }]
   },
   {
     "id": "131",
@@ -1408,7 +1408,7 @@
     "spritePC": "lapras",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Water", "Ice"]
+    "types": [{ "id": "Water" }, { "id": "Ice" }]
   },
   {
     "id": "132",
@@ -1417,7 +1417,7 @@
     "spritePC": "ditto",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "133",
@@ -1425,7 +1425,7 @@
     "name": "Eevee",
     "spritePC": "eevee",
     "sprites": ["-shiny", "-floral"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "134",
@@ -1433,7 +1433,7 @@
     "name": "Vaporeon",
     "spritePC": "vaporeon",
     "sprites": ["-shiny", "-floral"],
-    "types": ["Water"]
+    "types": [{ "id": "Water" }]
   },
   {
     "id": "135",
@@ -1441,7 +1441,7 @@
     "name": "Jolteon",
     "spritePC": "jolteon",
     "sprites": ["-shiny", "-floral"],
-    "types": ["Electric"]
+    "types": [{ "id": "Electric" }]
   },
   {
     "id": "136",
@@ -1449,7 +1449,7 @@
     "name": "Flareon",
     "spritePC": "flareon",
     "sprites": ["-shiny", "-floral"],
-    "types": ["Fire"]
+    "types": [{ "id": "Fire" }]
   },
   {
     "id": "137",
@@ -1458,7 +1458,7 @@
     "spritePC": "porygon",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "138",
@@ -1467,16 +1467,16 @@
     "spritePC": "omanyte",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Water"]
+    "types": [{ "id": "Rock" }, { "id": "Water" }]
   },
   {
     "id": "139",
     "number": 139,
     "name": "Omastar",
-    "spritePC": "Omastar",
+    "spritePC": "omastar",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Water"]
+    "types": [{ "id": "Rock" }, { "id": "Water" }]
   },
   {
     "id": "140",
@@ -1485,7 +1485,7 @@
     "spritePC": "kabuto",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Water"]
+    "types": [{ "id": "Rock" }, { "id": "Water" }]
   },
   {
     "id": "141",
@@ -1494,7 +1494,7 @@
     "spritePC": "kabutops",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Water"]
+    "types": [{ "id": "Rock" }, { "id": "Water" }]
   },
   {
     "id": "142",
@@ -1503,7 +1503,7 @@
     "spritePC": "aerodactyl",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Rock", "Flying"]
+    "types": [{ "id": "Rock" }, { "id": "Flying" }]
   },
   {
     "id": "143",
@@ -1512,7 +1512,7 @@
     "spritePC": "snorlax",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Normal"]
+    "types": [{ "id": "Normal" }]
   },
   {
     "id": "144",
@@ -1521,7 +1521,7 @@
     "spritePC": "articuno",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Ice", "Flying"]
+    "types": [{ "id": "Ice" }, { "id": "Flying" }]
   },
   {
     "id": "145",
@@ -1530,7 +1530,7 @@
     "spritePC": "zapdos",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Electric", "Flying"]
+    "types": [{ "id": "Electric" }, { "id": "Flying" }]
   },
   {
     "id": "146",
@@ -1539,7 +1539,7 @@
     "spritePC": "moltres",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Fire", "Flying"]
+    "types": [{ "id": "Fire" }, { "id": "Flying" }]
   },
   {
     "id": "147",
@@ -1548,7 +1548,7 @@
     "spritePC": "dratini",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["dragon"]
+    "types": [{ "id": "Dragon" }]
   },
   {
     "id": "148",
@@ -1557,7 +1557,7 @@
     "spritePC": "dragonair",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["dragon"]
+    "types": [{ "id": "Dragon" }]
   },
   {
     "id": "149",
@@ -1566,7 +1566,7 @@
     "spritePC": "dragonite",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["dragon", "Flying"]
+    "types": [{ "id": "Dragon" }, { "id": "Flying" }]
   },
   {
     "id": "150",
@@ -1575,7 +1575,7 @@
     "spritePC": "mewtwo",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   },
   {
     "id": "151",
@@ -1584,6 +1584,6 @@
     "spritePC": "mew",
     "sprites": [],
     "shinies": ["-shiny"],
-    "types": ["Psychic"]
+    "types": [{ "id": "Psychic" }]
   }
 ]
